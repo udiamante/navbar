@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Koulen', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.logo {
+height: 20%;
+
+}
+.header {
+    background: green;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+.nav-link {
+    color: whitesmoke;
+    
+}
+.nav-link:hover {
+    text-decoration: underline;
+    
+}

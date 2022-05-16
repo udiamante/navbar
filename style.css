@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+.container {
+    background: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    /* Despues de activar flex podemos usar las propiedades de flex */
+    flex-direction: row;
+    /* justify-content */
+    justify-content: center;
+    /* Align-items */
+align-items: center;
+}
+
+
+.hijo {
+    background: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Podemos cambiar el orden entre los elementos */
+.uno {
+    order: 3
+}
+.dos {
+    order: 1;
+}
+.tres {
+    order: 2;
+}
